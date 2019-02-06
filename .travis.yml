@@ -1,0 +1,11 @@
+os: osx
+osx_image: xcode9.1
+language: node_js
+node_js:
+  - 8
+script:
+- npm run lint
+- npm run dist
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"

@@ -1,0 +1,86 @@
+{
+  "name": "keepdark",
+  "productName": "Keep Dark",
+  "version": "0.1.0",
+  "description": "Google Keep Dark: Desktop App with Dark Theme",
+  "electronVersion": "0.36.0",
+  "main": "app/index.js",
+  "files": [
+    "build",
+    "app"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "lint": "standard",
+    "pack": "electron-builder --dir",
+    "dist": "npm run dist:mac && npm run dist:linux && npm run dist:win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "dist:win": "electron-builder --win",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukassr/keep-desktop-dark"
+  },
+  "keywords": [
+    "electron-app",
+    "electron",
+    "google",
+    "keep"
+  ],
+  "author": "Lukas Svicarovic <svicarovic@gmail.com> (https://github.com/lukassr)",
+  "bugs": {
+    "url": "https://github.com/lukassr/keep-desktop-dark/issues"
+  },
+  "homepage": "https://github.com/lukassr/keep-desktop-dark",
+  "dependencies": {
+    "electron-config": "^1.0.0",
+    "electron-debug": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-builder": "^20.29.0",
+    "standard": "^10.0.3"
+  },
+  "build": {
+    "appId": "com.lukassr.keep-dark",
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "dmg": {
+      "iconSize": 160,
+      "contents": [
+        {
+          "x": 180,
+          "y": 170
+        },
+        {
+          "x": 480,
+          "y": 170,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "category": "Utility",
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  }
+}
