@@ -32,7 +32,7 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
       }
       })
     })
-  // window.setFullScreen(true);
+  window.setFullScreen(true);
   window.on('resize', handleResize)
   window.on('closed', handleClosed)
   // const session = window.webContents.session.cookies.get({}, (error, cookies) => {
