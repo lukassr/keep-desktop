@@ -1,4 +1,4 @@
-# Keep Dark: Destkop App with Dark Mode
+# Keep Dark: Google Keep Destkop App with Dark Mode
 [Google Keep](https://keep.google.com "Google Keep") Desktop application for Windows, Mac and Linux with Dark Theme. Packaged with [Electron](https://electronjs.org/ "Electron").
 
 ![Keep Dark](https://github.com/lukassr/keep-dark-desktop/blob/master/media/screenshot.png)
