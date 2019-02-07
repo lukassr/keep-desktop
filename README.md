@@ -5,6 +5,10 @@
 
 ***Observation:** The app is not finished yet. There are some assets with wrong colors, missing functionalities and improvements. I will accept PRs if you find an error and want to fix it* 😊
 
+## Pre-release Downloads
+[Download for macOS.](https://github.com/lukassr/keep-dark-desktop/releases/download/v.0.1.0/Keep.Dark-0.1.0.dmg)
+
+[Download for Windows.](https://github.com/lukassr/keep-dark-desktop/releases/download/v.0.1.0/Keep.Dark.Setup.0.1.0.exe)
 ## References
 Special thanks to two developers who made almost all the effort. Honestly, I did a very little code here, except for some corrections of colors in the CSS.
 - [Keep Desktop]( https://github.com/andrepolischuk/keep) by [andrepolischuck](https://github.com/andrepolischuk/)
