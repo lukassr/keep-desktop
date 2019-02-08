@@ -3,7 +3,7 @@
 
 ![Keep Dark](https://github.com/lukassr/keep-dark-desktop/blob/master/media/screenshot.png)
 
-***Observation:** The app is not finished yet. There are some assets with wrong colors, missing functionalities and improvements. I will accept PRs if you find an error and want to fix it* 😊
+***Observation:** The app is not finished yet. There are some assets with wrong colors, missing functionalities and improvements. I will accept PRs if you find an error and want to fix it* 
 
 ## Pre-release Downloads
 [Download for macOS.](https://github.com/lukassr/keep-dark-desktop/releases/download/v.0.1.0/Keep.Dark-0.1.0.dmg)
