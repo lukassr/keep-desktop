@@ -15,7 +15,6 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
     height: lastWindowState.height,
     icon: join(__dirname, '../build/icon.png'),
     title: 'Keep Dark',
-    titleBarStyle: 'hidden',
     webPreferences: {
       preload: `${__dirname}/browser.js`,
       partition: "persist:main"
@@ -33,8 +32,8 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
       })
     })
   // window.setFullScreen(true);
-  window.on('resize', handleResize)
-  window.on('closed', handleClosed)
+  window.on('resize', handleResize);
+  window.on('closed', handleClosed);
   // const session = window.webContents.session.cookies.get({}, (error, cookies) => {
   //   console.log("cookies", cookies);
     // var cookies = session.defaultSession.cookies;
@@ -60,5 +59,5 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
     // });
   // });;
     
-  return window
+  return window;
 }
