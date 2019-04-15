@@ -34,11 +34,11 @@ npm run dist:<OS>
 Where `<OS>` can be `mac`, `win` or `linux`.
 
 
-### Update log
+## Update log
 
-#### 15/04
+### 15/04
 - Fix search bar color
 - Fix min width for better experience in shared fullscreen mode
 
-#### 20/03
+### 20/03
 - Update CSS after Google change some names of the Keep Frontend
