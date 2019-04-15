@@ -8,7 +8,7 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
   const lastWindowState = config.get('lastWindowState')
 
   const window = new BrowserWindow({
-    minWidth: 615,
+    minWidth: 300,
     x: lastWindowState.x,
     y: lastWindowState.y,
     width: lastWindowState.width,
