@@ -14,7 +14,7 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
     width: lastWindowState.width,
     height: lastWindowState.height,
     icon: join(__dirname, '../build/icon.png'),
-    title: 'Keep Dark',
+    title: 'Keep Desktop',
     webPreferences: {
       preload: `${__dirname}/browser.js`,
       partition: "persist:main"
@@ -24,12 +24,12 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
   window.loadURL('https://keep.google.com')
   window.webContents.on('did-finish-load', function() {
       console.log(__dirname)
-      fs.readFile(__dirname+ '/../dark.css', "utf-8", function(error, data) {
-        if(!error){
-        var formatedData = data.replace(/\s{2,10}/g, ' ').trim()
-        window.webContents.insertCSS(formatedData)
-      }
-      })
+      // fs.readFile(__dirname+ '/../dark.css', "utf-8", function(error, data) {
+      //   if(!error){
+      //   var formatedData = data.replace(/\s{2,10}/g, ' ').trim()
+      //   window.webContents.insertCSS(formatedData)
+      // }
+      // })
     })
   // window.setFullScreen(true);
   window.on('resize', handleResize);

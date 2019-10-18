@@ -6,7 +6,7 @@ const shell = require('electron').shell
 module.exports = function createMainMenu () {
   const template = [
     {
-      label: 'Keep Dark',
+      label: 'Keep Desktop',
       submenu: [
         {
           label: 'Services',
@@ -165,7 +165,7 @@ module.exports = function createMainMenu () {
         {
           label: 'View on GitHub',
           click: () => {
-            shell.openExternal('https://github.com/lukassr/keep-dark-desktop')
+            shell.openExternal('https://github.com/lukassr/keep-desktop')
           }
         }
       ]
