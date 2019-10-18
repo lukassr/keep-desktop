@@ -1,22 +1,21 @@
-# Keep Dark: Google Keep Destkop App with Native Dark Mode
+# Keep Desktop: Google Keep Destkop App
 [Google Keep](https://keep.google.com "Google Keep") Desktop application for Windows, Mac and Linux. Packaged with [Electron](https://electronjs.org/ "Electron").
 
-***Last Update 15/04***
+***Last Update 18/10/2019***
 
-![Keep Dark](https://github.com/lukassr/keep-dark-desktop/blob/master/media/screenshot.png)
+![Keep Desktop](https://github.com/lukassr/keep-desktop/blob/master/media/screenshot.png)
 
-***Observation:** The app is not finished yet. There are some assets with wrong colors, missing functionalities and improvements. I will accept PRs if you find an error and want to fix it* 
+
 
 ## Pre-release Downloads (v0.2.1)
-[Download for macOS](https://github.com/lukassr/keep-dark-desktop/releases/download/v0.2.1/Keep.Dark-0.2.1.dmg)
+[Download for macOS](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/Keep.Dark-0.2.1.dmg)
 
-[Download for Windows](https://github.com/lukassr/keep-dark-desktop/releases/download/v0.2.1/Keep.Dark.Setup.0.2.1.exe)
+[Download for Windows](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/Keep.Dark.Setup.0.2.1.exe)
 
-[Download for Linux](https://github.com/lukassr/keep-dark-desktop/releases/download/v0.2.1/keepdark_0.2.1_amd64.deb)
+[Download for Linux](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/keepdark_0.2.1_amd64.deb)
 ## References
-Special thanks to two developers who made almost all the effort. Honestly, I did a very little code here, except for some corrections of colors in the CSS.
+
 - [Keep Desktop]( https://github.com/andrepolischuk/keep) by [andrepolischuck](https://github.com/andrepolischuk/)
-- [CSS Style](https://userstyles.org/styles/161659/google-keep-darker-matters) by deiden26.
 
 ## Requirements
 - npm
@@ -35,6 +34,10 @@ Where `<OS>` can be `mac`, `win` or `linux`.
 
 
 ## Update log
+
+### 18/10
+- Ignore dark.css, as Google implemented native dark mode 
+- Change name from Keep Dark to Keep Desktop
 
 ### 15/04
 - Fix search bar color
