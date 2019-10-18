@@ -8,11 +8,11 @@
 
 
 ## Release Downloads (v0.3.0)
-[Download for macOS](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/Keep.Dark-0.3.0.dmg)
+[Download for macOS](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/Keep.Desktop-0.3.0.dmg)
 
-[Download for Windows](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/Keep.Dark.Setup.0.3.0.exe)
+[Download for Windows](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/Keep.Desktop.Setup.0.3.0.exe)
 
-[Download for Linux](https://github.com/lukassr/keep-desktop/releases/download/v0.2.1/keepdark_0.3.0_amd64.deb)
+[Download for Linux](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/keepdesktop_0.3.0_amd64.deb)
 ## References
 
 - [Keep Desktop]( https://github.com/andrepolischuk/keep) by [andrepolischuck](https://github.com/andrepolischuk/)
