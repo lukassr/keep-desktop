@@ -45,3 +45,7 @@ Where `<OS>` can be `mac`, `win` or `linux`.
 
 ### 20/03
 - Update CSS after Google change some names of the Keep Frontend
+
+
+## See also
+- [Google Calendar Dark Desktop](https://github.com/lukassr/gcalendar-dark-desktop)
