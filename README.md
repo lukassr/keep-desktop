@@ -7,13 +7,15 @@
 
 
 
-## Release Downloads (v0.3.0)
-[Download for macOS](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/Keep.Desktop-0.3.0.dmg)
+## Release Downloads (v0.3.1)
+[Download for macOS](https://github.com/lukassr/keep-desktop/releases/download/v0.3.1/Keep.Desktop-0.3.1.dmg)
 
-[Download for Windows](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/Keep.Desktop.Setup.0.3.0.exe)
+[Download for Windows](https://github.com/lukassr/keep-desktop/releases/download/v0.3.1/Keep.Desktop.Setup.0.3.1.exe)
+*(Windows Defender will show a protection message. This is because the exe is not signed, nothing else. Just click in more info and install it)*
 
-[Download for Linux](https://github.com/lukassr/keep-desktop/releases/download/v0.3.0/keepdesktop_0.3.0_amd64.deb)
-## References
+[Download for Linux](https://github.com/lukassr/keep-desktop/releases/download/v0.3.1/keepdesktop_0.3.1_amd64.deb)
+
+# References
 
 - [Keep Desktop]( https://github.com/andrepolischuk/keep) by [andrepolischuck](https://github.com/andrepolischuk/)
 
@@ -34,6 +36,9 @@ Where `<OS>` can be `mac`, `win` or `linux`.
 
 
 ## Update log
+### 26/12
+- Upgrade version of electron-builder 20.29.0 -> 22.2.0
+
 
 ### 18/10
 - Ignore dark.css, as Google implemented native dark mode 
