@@ -1,7 +1,7 @@
 # Keep Desktop: Google Keep Destkop App
 [Google Keep](https://keep.google.com "Google Keep") Desktop application for Windows, Mac and Linux. Packaged with [Electron](https://electronjs.org/ "Electron").
 
-***Last Update 18/10/2019***
+***Last Update 26/12/2019***
 
 ![Keep Desktop](https://github.com/lukassr/keep-desktop/blob/master/media/screenshot.png)
 
